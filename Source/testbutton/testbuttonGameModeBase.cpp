@@ -5,7 +5,8 @@
 
 AtestbuttonGameModeBase::AtestbuttonGameModeBase()
 {
-
+	int j = 0;
+	j++;
 }
 
 void AtestbuttonGameModeBase::BeginPlay()
@@ -14,4 +15,5 @@ void AtestbuttonGameModeBase::BeginPlay()
 	i++;
 	int j = 0;
 	j += i;
+	UE_LOG(LogTemp, Warning, TEXT("Problem on load Province Message!"));
 }

@@ -15,6 +15,6 @@ class TESTBUTTON_API AtestbuttonGameModeBase : public AGameModeBase
 	GENERATED_BODY()
 public:
 	AtestbuttonGameModeBase();
-protected:
+public:
 	virtual void BeginPlay() override;
 };
